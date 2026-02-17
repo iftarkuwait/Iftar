@@ -34,8 +34,9 @@ h1 {
     grid-template-columns: repeat(4, 1fr); /* 4 images per row */
     gap: 25px;
     padding: 40px;
+	direction:ltr;
 }
-
+.grid *{direction:rtl;}
 .card {
     background: white;
     border-radius: 15px;
@@ -226,3 +227,4 @@ h1 {
         }
 		
 		/*end header*/
+
